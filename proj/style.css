@@ -120,10 +120,10 @@ body {
   background-image: url("./smile.jpg");
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
-  background: #00B1D2FF;
+  background: ##20c997;
 }
 .skw-page-2 .skw-page__half--left .skw-page__content {
-  background: #000050;
+  background: #845ef7;
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
   background-image: url("./news.JPG");
@@ -132,10 +132,10 @@ body {
   background-image: url("./opencvpic.jpg");
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
-  background: #000050;
+  background: #51cf66;
 }
 .skw-page-4 .skw-page__half--left .skw-page__content {
-  background: #000050;
+  background: #339af0;
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
   background-image: url("./final.gif");
@@ -144,5 +144,5 @@ body {
   background-image: url("file:///C:/Users/krishna/Desktop/about_me-master/img/news.jpg");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
-  background: #000050;
+  background: #ff6b6b;
 }
