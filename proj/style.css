@@ -126,10 +126,10 @@ body {
   background: #000050;
 }
 .skw-page-2 .skw-page__half--right .skw-page__content {
-  background-image: url("file:///C:/Users/krishna/Desktop/skewed-one-page-scroll/nw.PNG");
+  background-image: url("./news.JPG");
 }
 .skw-page-3 .skw-page__half--left .skw-page__content {
-  background-image: url("file:///C:/Users/krishna/Desktop/skewed-one-page-scroll/opencv.PNG");
+  background-image: url("./opencvpic.jpg");
 }
 .skw-page-3 .skw-page__half--right .skw-page__content {
   background: #000050;
@@ -138,7 +138,7 @@ body {
   background: #000050;
 }
 .skw-page-4 .skw-page__half--right .skw-page__content {
-  background-image: url("file:///C:/Users/krishna/Desktop/about_me-master/img/final.gif");
+  background-image: url("./final.gif");
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
   background-image: url("file:///C:/Users/krishna/Desktop/about_me-master/img/news.jpg");
