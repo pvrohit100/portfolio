@@ -117,10 +117,10 @@ body {
   color: #FFA0A0;
 }
 .skw-page-1 .skw-page__half--left .skw-page__content {
-  background-image: url("./smile.jpg");
+  background: #51cf66;
 }
 .skw-page-1 .skw-page__half--right .skw-page__content {
-  background: #20c997;
+  background: #51cf66;
 }
 .skw-page-2 .skw-page__half--left .skw-page__content {
   background: #845ef7;
@@ -141,8 +141,17 @@ body {
   background-image: url("./final.gif");
 }
 .skw-page-5 .skw-page__half--left .skw-page__content {
-  background-image: url("./ct.jpg");
+  background-image: url("./smile.jpg");
 }
 .skw-page-5 .skw-page__half--right .skw-page__content {
   background: #ff6b6b;
 }
+
+.skw-page-6 .skw-page__half--left .skw-page__content {
+  background: #20c997;
+}
+.skw-page-6 .skw-page__half--right .skw-page__content {
+  
+  background-image: url("./ct.jpg");
+}
+
