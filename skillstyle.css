@@ -1,15 +1,15 @@
-font-family: 'Oswald', sans-serif;
+/*font-family: 'Oswald', sans-serif;*/
 
-html { 
-  font-size: 62.5%; } 
+/*html { 
+  font-size: 62.5%; } */
 body {
 font-size: 1.5em;
 line-height: 1.6;
 font-weight: 400;
 font-family: 'lux', sans-serif;
 color: #222;
-background-color: #f6f6f6;
-overflow-y: scroll;
+/*background-color: #f6f6f6;*/
+/*overflow-y: scroll;*/
 }
 
 
@@ -26,7 +26,7 @@ h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
-/* Larger than phablet */
+ Larger than phablet 
 @media (min-width: 550px) {
   h1 { font-size: 5.0rem; }
   h2 { font-size: 4.2rem; }
@@ -49,7 +49,7 @@ font-family: oswald;
 position: relative;
 height: 100vh;
 width: 100%;
-background: #f6f6f6;
+/*background: #f6f6f6;
 background: -moz-radial-gradient(center, ellipse cover, #f6f6f6 1%, #d3d3d3 100%);
 background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#f6f6f6), color-stop(100%,#d3d3d3));
 /* background: -webkit-radial-gradient(center, ellipse cover, #f6f6f6 1%,#d3d3d3 100%); */
@@ -74,7 +74,7 @@ z-index: 1;
 .welcome {
 font-size: 60px;
 text-align: center;
-color: #333;
+/*color: #333;*/
 }
 
 
