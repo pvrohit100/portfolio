@@ -12,6 +12,10 @@
   dt = 1;
 
   
+
+  document.getElementsByTagName("canvas")[0].style.background = getColor(0);
+
+
   // BUILDINGS
 
   Building = function(config) {
@@ -190,6 +194,8 @@
     while (i--) {
       results.push(skylines[i].update(i));
     }
+    // myFunction();
+    // scrolling();
     return results;
   };
 
@@ -202,17 +208,90 @@
     results = [];
     while (i--) {
       results.push(skylines[i].render(i));
+
     }
+    
     return results;
   };
 
-  
+  // setInterval(myFunction,10000);
   // Mousemove Fix
 
   $(window).on('mousemove', function(e) {
     sketch.mouse.x = e.pageX;
     return sketch.mouse.y = e.pageY;
   });
+
+
+  // *******************
+  // $(sketch).onscroll = function() {scrolling()};
+
+  function getColor(value) {
+  //value from 0 to 1
+  // var hue = ((1 - value) * 120).toString(10);
+
+  var hue=175+37*((328-value)/328);
+  console.log(value);
+  console.log(hue);
+  return ["hsl(", hue, ",100%,50%)"].join("");
+}
+
+// *************IMP DOWN*********************
+$('.maindiv').scroll(function() {
+    
+    var currY = $(this).scrollTop();
+    var postHeight = $(this).height();
+  var scrollHeight = $('.content').height();
+    // Current percentual position
+  var scrollPercent = (currY / (scrollHeight - postHeight)) * 100;
+  // console.log(scrollPercent);
+
+    // $('.bar-long').css('width', scrollPercent +"%"  );
+    // document.getElementById("t").innerHTML = scrollPercent + "%";
+    document.getElementsByTagName("canvas")[0].style.background = getColor(-1*scrollPercent);
+
+});
+// *************IMP end**********************
+
+
+// // console.log("hello");
+// // console.log(document.getElementsByTagName("canvas")[0]);
+// // // *********************************
+// // function scrolling() {
+// //       let height = sketch.clientHeight;
+// //       let scrollHeight = sketch.scrollHeight - height;
+// //       let scrollTop = sketch.scrollTop;
+// //       let percent = Math.floor(scrollTop / scrollHeight * 100);
+// //       // document.getElementById('percent').innerText = 'Percent : '+percent+'%';
+// //       console.log("in scrolling")
+// //       console.log(percent);
+// //       console.log(scrollTop);
+// //       console.log(scrollHeight);
+// //       console.log(this.scrollY)
+// //     }
+// // // *********************************
+// var temp=210;
+// var mul=1;
+// function myFunction() {
+  
+// // console.log(document.getElementsByTagName("canvas")[0]);
+
+// document.getElementsByTagName("canvas")[0].style.background = getColor(temp);
+// console.log("prev")
+// console.log(temp);
+// if(temp>210 && mul==+1){mul=-1;console.log("hello11");}
+// // else if(temp<193 && temp>36 && mul==-1){temp=36;console.log("hello22");} //sft
+// else if(temp<18 && mul==-1){mul=+1;console.log("hello33");}
+// // else if(temp>36 && temp<193 && mul==+1){temp=193;console.log("hello44");} //sft
+
+//   // *************************
+//   temp=temp+mul;
+//   console.log("after")
+//   console.log(temp);
+
+// }
+
+// // console.log("hello33");
 
 }).call(this);
 
