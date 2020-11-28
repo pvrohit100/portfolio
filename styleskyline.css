@@ -1,9 +1,5 @@
 canvas {
-  background: 
-    linear-gradient(
-      hsl(200, 50%, 80%) 0%, 
-      hsl(200, 30%, 95%) 75%)
-  ;
+  /*background: hsl(200, 50%, 80%);*/
   display: block;
 }
 
@@ -13,7 +9,10 @@ canvas {
   position: fixed;
   top: 0;
   width: 100%;
-  background: url(https://jackrugile.com/images/misc/skyline-texture.png);
+  /*background: url(https://jackrugile.com/images/misc/skyline-texture.png);*/
+  /*background: rgb(190,207,240);*/
+  
+/*background: linear-gradient(8deg, rgba(190,207,240,1) 7%, rgba(83,92,107,1) 14%, rgba(19,43,84,1) 21%, rgba(4,24,59,1) 29%, rgba(7,25,54,1) 36%, rgba(67,59,33,1) 43%, rgba(242,175,98,1) 49%, rgba(242,124,106,1) 55%, rgba(242,223,114,1) 61%, rgba(241,242,122,1) 67%, rgba(239,242,169,0.9008620689655172) 74%, rgba(169,229,242,0.9008620689655172) 80%, rgba(169,213,242,0.9008620689655172) 85%, rgba(169,242,216,0.9008620689655172) 90%);*/
 }
 
 
