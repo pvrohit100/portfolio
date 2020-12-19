@@ -152,6 +152,15 @@ body {
 }
 .skw-page-6 .skw-page__half--right .skw-page__content {
   
+  background: #20c997;
+}
+
+
+.skw-page-7 .skw-page__half--left .skw-page__content {
+  background: #20c997;
+}
+.skw-page-7 .skw-page__half--right .skw-page__content {
+  
   background-image: url("./ct.jpg");
 }
 
