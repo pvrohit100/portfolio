@@ -3,7 +3,7 @@ var element = $('.proj');
 var u= $('.up');
 var d= $('.dn');
 
-
+document.body.style.zoom = (window.innerWidth / window.outerWidth)
 
 $(document).ready(function() {
  //$("html").niceScroll();
@@ -134,4 +134,4 @@ console.log(curPage);
 
 });
 
-
+document.body.style.zoom = (window.innerWidth / window.outerWidth)
