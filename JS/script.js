@@ -7,7 +7,12 @@ document.body.style.zoom = (window.innerWidth / window.outerWidth)
 
 $(document).ready(function() {
  //$("html").niceScroll();
-
+var scale = 'scale(1)';
+document.body.style.webkitTransform =  scale; 
+  document.body.style.msTransform =   scale;       // IE 9
+ document.body.style.transform = scale;  
+ 
+ document.body.style.zoom = (window.innerWidth / window.outerWidth)
   var curPage = 1;
   var numOfPages = $(".skw-page").length;
   var animTime = 1000;
